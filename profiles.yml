@@ -1,0 +1,17 @@
+analytics:
+  my_project:
+  target: default
+  outputs:
+    dev:
+      type: snowflake
+      account: <wx13880.us-east-2.aws>
+      user: manasa3512
+      password: Manasa@3512
+      role: ACCOUNTADMIN
+      database: Analytics
+      warehouse: Tranforming
+      schema: dbt_manasa3512
+      threads: 6
+      client_session_keep_alive: True
+      query_tag: dbt
+      authenticator: externalbrowser
