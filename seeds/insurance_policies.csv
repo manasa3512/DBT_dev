@@ -1,0 +1,16 @@
+policy_id, policy_name, policy_type, coverage_amount, premium_amount, deductible, co_pay, start_date, end_date, status, provider_name, provider_contact, policy_category, beneficiary_type, policy_description
+1, Basic Health Plan, Health, 100000, 250, 500, 30, 2024-01-01, 2025-01-01, Active, HealthCare Inc, 800-123-4567, Individual, Primary, A basic health plan offering essential coverage for individuals
+2, Premium Health Plan, Health, 500000, 600, 1000, 50, 2024-02-01, 2025-02-01, Active, HealthCare Inc, 800-123-4567, Family, Primary, A premium health plan offering extensive coverage for families
+3, Dental Plan, Dental, 20000, 75, 200, 20, 2024-03-01, 2025-03-01, Active, DentalCare Ltd, 800-234-5678, Individual, Secondary, Covers basic dental procedures such as cleanings and fillings
+4, Vision Plan, Vision, 10000, 40, 100, 10, 2024-03-01, 2025-03-01, Active, EyeCare Corp, 800-345-6789, Individual, Primary, Vision coverage for eye exams glasses and contact lenses
+5, Family Health Plan, Health, 300000, 500, 800, 40, 2024-04-01, 2025-04-01, Active, WellHealth Insurance, 800-456-7890, Family, Primary, Health coverage for the entire family including maternity and pediatric care
+6, Short-Term Health Plan, Health, 100000, 150, 300, 25, 2024-05-01, 2024-11-01, Active, QuickCare Insurance, 800-567-8901, Individual, Primary, Temporary health coverage for individuals during transition periods
+7, Maternity Health Plan, Health, 250000, 350, 600, 50, 2024-06-01, 2025-06-01, Active, Maternity Health Group, 800-678-9012, Family, Primary, Coverage for prenatal and postnatal care including delivery costs
+8, Accident Plan, Accident, 50000, 120, 150, 15, 2024-07-01, 2025-07-01, Active, AccidentCare Ltd, 800-789-0123, Individual, Primary, Provides coverage for accidents including hospital stays and treatments
+9, Critical Illness Plan, Health, 200000, 450, 1200, 70, 2024-08-01, 2025-08-01, Active, CriticalCare Insurance, 800-890-1234, Family, Secondary, Coverage for serious illnesses such as cancer stroke and heart disease
+10, Life Insurance, Life, 1000000, 100, 1500, 0, 2024-09-01, 2044-09-01, Active, LifeSecure Co, 800-901-2345, Family, Primary, A life insurance policy providing a lump sum payment upon death
+11, Emergency Care Plan, Health, 150000, 200, 400, 30, 2024-10-01, 2025-10-01, Active, Emergency Health Ltd, 800-012-3456, Individual, Primary, Covers emergency room visits urgent care and ambulance services
+12, Mental Health Plan, Health, 50000, 180, 500, 40, 2024-11-01, 2025-11-01, Active, MentalWell Corp, 800-123-6543, Individual, Secondary, Provides coverage for mental health services such as therapy and counseling
+13, Disability Insurance, Disability, 250000, 350, 800, 45, 2024-12-01, 2025-12-01, Active, SecureDisability Ltd, 800-234-7654, Family, Primary, Disability coverage for individuals unable to work due to illness or injury
+14, Hospitalization Plan, Health, 500000, 700, 1500, 60, 2024-01-01, 2025-01-01, Active, HospitalCare Co, 800-345-8765, Individual, Primary, Covers hospitalization costs including surgeries room charges and medical tests
+15, Chronic Illness Plan, Health, 200000, 400, 1000, 50, 2024-02-01, 2025-02-01, Active, ChronicCare Insurance, 800-456-9876, Family, Secondary, Coverage for chronic conditions like diabetes hypertension and asthma

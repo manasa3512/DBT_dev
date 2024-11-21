@@ -1,0 +1,16 @@
+policy_holder_id,first_name,last_name,dob,gender,phone,email,address,city,state,zip,policy_id,start_date,end_date,status
+1,John,Doe,1985-05-12,Male,123-456-7890,john.doe@example.com,123 Elm St,Springfield,IL,62701,POL001,2023-01-01,2023-12-31,Active
+2,Jane,Smith,1990-07-24,Female,234-567-8901,jane.smith@example.com,456 Oak St,Chicago,IL,60601,POL002,2022-03-15,2023-03-14,Expired
+3,Michael,Brown,1978-11-08,Male,345-678-9012,michael.brown@example.com,789 Pine Ave,Peoria,IL,61602,POL003,2023-05-01,2024-04-30,Active
+4,Emily,Johnson,1995-03-02,Female,456-789-0123,emily.johnson@example.com,321 Maple Rd,Naperville,IL,60563,POL004,2022-07-01,2023-06-30,Expired
+5,William,Davis,1982-12-19,Male,567-890-1234,william.davis@example.com,654 Birch Ln,Rockford,IL,61101,POL005,2023-02-01,2024-01-31,Active
+6,Olivia,Wilson,2000-01-15,Female,678-901-2345,olivia.wilson@example.com,987 Cedar Blvd,Joliet,IL,60431,POL006,2023-06-01,2024-05-31,Active
+7,James,Martinez,1988-04-27,Male,789-012-3456,james.martinez@example.com,159 Spruce Dr,Aurora,IL,60505,POL007,2021-09-01,2023-08-31,Expired
+8,Charlotte,Lopez,1993-09-14,Female,890-123-4567,charlotte.lopez@example.com,753 Redwood St,Elgin,IL,60120,POL008,2022-11-01,2023-10-31,Expired
+9,Henry,Gonzalez,1984-10-21,Male,901-234-5678,henry.gonzalez@example.com,852 Chestnut Ave,Bloomington,IL,61701,POL009,2023-04-01,2024-03-31,Active
+10,Sophia,Harris,1997-06-10,Female,012-345-6789,sophia.harris@example.com,357 Willow Ct,Schaumburg,IL,60193,POL010,2023-08-01,2024-07-31,Active
+11,Alexander,Clark,1981-02-04,Male,123-456-7891,alexander.clark@example.com,258 Ash Way,Decatur,IL,62521,POL011,2020-01-01,2023-01-01,Cancelled
+12,Amelia,Hall,1992-12-25,Female,234-567-8902,amelia.hall@example.com,159 Fir Pl,Evanston,IL,60201,POL012,2023-03-01,2024-02-29,Active
+13,Elijah,Young,1986-08-30,Male,345-678-9013,elijah.young@example.com,753 Palm St,Champaign,IL,61820,POL013,2023-07-01,2024-06-30,Active
+14,Mia,King,1999-11-18,Female,456-789-0124,mia.king@example.com,159 Holly Ave,Waukegan,IL,60085,POL014,2022-12-01,2023-11-30,Expired
+15,Benjamin,Wright,1975-09-05,Male,567-890-1235,benjamin.wright@example.com,951 Cypress Dr,Belleville,IL,62220,POL015,2021-06-01,2024-05-31,Active
