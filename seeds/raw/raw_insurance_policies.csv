@@ -1,16 +1,16 @@
-policy_id, policy_name, policy_type, coverage_amount, premium_amount, deductible, co_pay, start_date, end_date, status, provider_name, provider_contact, policy_category, beneficiary_type, policy_description
-1, Basic Health Plan, Health, 100000, 250, 500, 30, 2024-01-01, 2025-01-01, Active, HealthCare Inc, 800-123-4567, Individual, Primary, A basic health plan offering essential coverage for individuals
-2, Premium Health Plan, Health, 500000, 600, 1000, 50, 2024-02-01, 2025-02-01, Active, HealthCare Inc, 800-123-4567, Family, Primary, A premium health plan offering extensive coverage for families
-3, Dental Plan, Dental, 20000, 75, 200, 20, 2024-03-01, 2025-03-01, Active, DentalCare Ltd, 800-234-5678, Individual, Secondary, Covers basic dental procedures such as cleanings and fillings
-4, Vision Plan, Vision, 10000, 40, 100, 10, 2024-03-01, 2025-03-01, Active, EyeCare Corp, 800-345-6789, Individual, Primary, Vision coverage for eye exams glasses and contact lenses
-5, Family Health Plan, Health, 300000, 500, 800, 40, 2024-04-01, 2025-04-01, Active, WellHealth Insurance, 800-456-7890, Family, Primary, Health coverage for the entire family including maternity and pediatric care
-6, Short-Term Health Plan, Health, 100000, 150, 300, 25, 2024-05-01, 2024-11-01, Active, QuickCare Insurance, 800-567-8901, Individual, Primary, Temporary health coverage for individuals during transition periods
-7, Maternity Health Plan, Health, 250000, 350, 600, 50, 2024-06-01, 2025-06-01, Active, Maternity Health Group, 800-678-9012, Family, Primary, Coverage for prenatal and postnatal care including delivery costs
-8, Accident Plan, Accident, 50000, 120, 150, 15, 2024-07-01, 2025-07-01, Active, AccidentCare Ltd, 800-789-0123, Individual, Primary, Provides coverage for accidents including hospital stays and treatments
-9, Critical Illness Plan, Health, 200000, 450, 1200, 70, 2024-08-01, 2025-08-01, Active, CriticalCare Insurance, 800-890-1234, Family, Secondary, Coverage for serious illnesses such as cancer stroke and heart disease
-10, Life Insurance, Life, 1000000, 100, 1500, 0, 2024-09-01, 2044-09-01, Active, LifeSecure Co, 800-901-2345, Family, Primary, A life insurance policy providing a lump sum payment upon death
-11, Emergency Care Plan, Health, 150000, 200, 400, 30, 2024-10-01, 2025-10-01, Active, Emergency Health Ltd, 800-012-3456, Individual, Primary, Covers emergency room visits urgent care and ambulance services
-12, Mental Health Plan, Health, 50000, 180, 500, 40, 2024-11-01, 2025-11-01, Active, MentalWell Corp, 800-123-6543, Individual, Secondary, Provides coverage for mental health services such as therapy and counseling
-13, Disability Insurance, Disability, 250000, 350, 800, 45, 2024-12-01, 2025-12-01, Active, SecureDisability Ltd, 800-234-7654, Family, Primary, Disability coverage for individuals unable to work due to illness or injury
-14, Hospitalization Plan, Health, 500000, 700, 1500, 60, 2024-01-01, 2025-01-01, Active, HospitalCare Co, 800-345-8765, Individual, Primary, Covers hospitalization costs including surgeries room charges and medical tests
-15, Chronic Illness Plan, Health, 200000, 400, 1000, 50, 2024-02-01, 2025-02-01, Active, ChronicCare Insurance, 800-456-9876, Family, Secondary, Coverage for chronic conditions like diabetes hypertension and asthma
+policy_id,policy_name,policy_type,coverage_amount,premium_amount,deductible,co_pay,start_date,end_date,status,provider_name,provider_contact,policy_category,beneficiary_type,policy_description
+101,Health Plus,Health,50000,200,100,20,2023-01-01,2024-01-01,Active,WellCare,123-456-7890,Comprehensive,Primary,Standard health insurance covering medical and surgical expenses.
+102,Life Shield,Life,100000,300,0,0,2023-03-01,2024-03-01,Inactive,LifeSecure,321-654-0987,Term,Primary,Covers life insurance with accidental death benefits.
+103,Secure Auto,Auto,20000,150,500,30,2023-05-15,2024-05-15,Active,DriveSafe,456-789-0123,Vehicle,Primary,Covers automobile damages and liability.
+104,Home Guard,Home,80000,250,1000,50,2023-07-01,2024-07-01,Active,HomeFirst,789-012-3456,Property,Primary,Covers home and property insurance.
+105,Travel Easy,Travel,5000,100,0,0,2023-02-10,2024-02-10,Inactive,TravelSecure,123-987-6540,Short-Term,Primary,Covers international and domestic travel emergencies.
+106,Health Pro,Health,70000,220,150,25,2023-06-20,2024-06-20,Active,HealthCo,987-654-3210,Comprehensive,Primary,Advanced health insurance with extended benefits.
+107,Auto Care,Auto,25000,160,400,30,2023-08-01,2024-08-01,Active,DriveSecure,654-321-7890,Vehicle,Primary,Covers vehicle damages and roadside assistance.
+108,Safe Home,Home,60000,240,800,40,2023-03-15,2024-03-15,Inactive,PropertyCare,789-654-1230,Property,Primary,Covers home repairs and theft.
+109,Travel Guard,Travel,8000,120,0,0,2023-09-01,2024-09-01,Active,TravelPro,321-987-6543,Short-Term,Primary,Covers travel cancellations and delays.
+110,Life Secure,Life,150000,400,0,0,2023-10-01,2024-10-01,Active,SecureLife,654-987-3210,Term,Primary,Extensive life insurance with family benefits.
+111,Health Shield,Health,60000,210,120,20,2023-11-01,2024-11-01,Inactive,WellGuard,987-321-6549,Comprehensive,Primary,Health insurance with emergency services coverage.
+112,Auto Max,Auto,30000,180,600,35,2023-12-01,2024-12-01,Active,DriveMax,147-258-3690,Vehicle,Primary,Extended vehicle insurance with collision benefits.
+113,Home Secure,Home,75000,230,900,45,2023-04-01,2024-04-01,Active,HomeSecure,963-852-7410,Property,Primary,Covers natural disaster damages and theft.
+114,Travel Plus,Travel,6000,110,0,0,2023-07-15,2024-07-15,Active,TravelCare,852-963-7410,Short-Term,Primary,Covers medical emergencies during travel.
+115,Life Pro,Life,200000,450,0,0,2023-05-01,2024-05-01,Inactive,LifeGuard,159-753-4862,Term,Primary,Comprehensive life insurance with savings plan.

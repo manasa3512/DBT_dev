@@ -1,0 +1,40 @@
+version: 2
+
+models:
+  - name: stg_policyholders
+    columns:
+      - name: policy_holder_id
+        description: "Primary key"
+        tests:
+          - not_null
+          - unique
+  - name : stg_policyclaims
+    columns :
+       - name: claim_id
+         tests:
+           - not_null
+           - unique
+  - name : stg_insurance_policies
+    columns :
+       - name: policy_id
+         tests:
+           - not_null
+           - unique
+  - name : stg_providers
+    columns :
+       - name: provider_id
+         tests:
+           - not_null
+           - unique
+  - name : stg_premium_payments
+    columns :
+       - name: payment_id
+         tests:
+           - not_null
+           - unique
+  - name : stg_beneficiaries
+    columns :
+       - name: beneficiary_id
+         tests:
+           - not_null
+           - unique

@@ -1,16 +1,17 @@
-provider_id, provider_name, provider_type, address, city, state, zip, phone, email, license_number, tax_id, contract_start_date, contract_end_date, status, created_at
-1, 'Provider A', 'Healthcare', '123 Elm St', 'Springfield', 'IL', '62701', '555-1234', 'providerA@example.com', 'A123456', '123-45-6789', '2022-01-01', '2023-01-01', 'Active', '2022-01-01 10:00:00'
-2, 'Provider B', 'Healthcare', '456 Oak St', 'Lincoln', 'NE', '68508', '555-2345', 'providerB@example.com', 'B234567', '234-56-7890', '2022-02-01', '2023-02-01', 'Inactive', '2022-02-01 11:00:00'
-3, 'Provider C', 'Legal', '789 Pine St', 'Omaha', 'NE', '68102', '555-3456', 'providerC@example.com', 'C345678', '345-67-8901', '2022-03-01', '2023-03-01', 'Active', '2022-03-01 12:00:00'
-4, 'Provider D', 'Legal', '101 Maple St', 'Peoria', 'IL', '61602', '555-4567', 'providerD@example.com', 'D456789', '456-78-9012', '2022-04-01', '2023-04-01', 'Inactive', '2022-04-01 13:00:00'
-5, 'Provider E', 'Finance', '202 Birch St', 'Champaign', 'IL', '61820', '555-5678', 'providerE@example.com', 'E567890', '567-89-0123', '2022-05-01', '2023-05-01', 'Active', '2022-05-01 14:00:00'
-6, 'Provider F', 'Finance', '303 Cedar St', 'Decatur', 'IL', '62521', '555-6789', 'providerF@example.com', 'F678901', '678-90-1234', '2022-06-01', '2023-06-01', 'Inactive', '2022-06-01 15:00:00'
-7, 'Provider G', 'Healthcare', '404 Redwood St', 'Normal', 'IL', '61761', '555-7890', 'providerG@example.com', 'G789012', '789-01-2345', '2022-07-01', '2023-07-01', 'Active', '2022-07-01 16:00:00'
-8, 'Provider H', 'Healthcare', '505 Fir St', 'Bloomington', 'IL', '61701', '555-8901', 'providerH@example.com', 'H890123', '890-12-3456', '2022-08-01', '2023-08-01', 'Inactive', '2022-08-01 17:00:00'
-9, 'Provider I', 'Legal', '606 Cedar St', 'Carbondale', 'IL', '62901', '555-9012', 'providerI@example.com', 'I901234', '901-23-4567', '2022-09-01', '2023-09-01', 'Active', '2022-09-01 18:00:00'
-10, 'Provider J', 'Legal', '707 Pine St', 'Cicero', 'IL', '60804', '555-0123', 'providerJ@example.com', 'J012345', '012-34-5678', '2022-10-01', '2023-10-01', 'Inactive', '2022-10-01 19:00:00'
-11, 'Provider K', 'Finance', '808 Oak St', 'Naperville', 'IL', '60563', '555-1234', 'providerK@example.com', 'K123456', '123-45-6789', '2022-11-01', '2023-11-01', 'Active', '2022-11-01 20:00:00'
-12, 'Provider L', 'Finance', '909 Maple St', 'Aurora', 'IL', '60505', '555-2345', 'providerL@example.com', 'L234567', '234-56-7890', '2022-12-01', '2023-12-01', 'Inactive', '2022-12-01 21:00:00'
-13, 'Provider M', 'Healthcare', '1010 Birch St', 'Elgin', 'IL', '60120', '555-3456', 'providerM@example.com', 'M345678', '345-67-8901', '2023-01-01', '2024-01-01', 'Active', '2023-01-01 22:00:00'
-14, 'Provider N', 'Healthcare', '1111 Cedar St', 'Joliet', 'IL', '60431', '555-4567', 'providerN@example.com', 'N456789', '456-78-9012', '2023-02-01', '2024-02-01', 'Inactive', '2023-02-01 23:00:00'
-15, 'Provider O', 'Legal', '1212 Redwood St', 'Schaumburg', 'IL', '60194', '555-5678', 'providerO@example.com', 'O567890', '567-89-0123', '2023-03-01', '2024-03-01', 'Active', '2023-03-01 00:00:00'
+provider_id,provider_name,provider_type,address,city,state,zip,phone,email,license_number,tax_id,contract_start_date,contract_end_date,status,created_at
+1,HealthCare Plus,Hospital,123 Street St,Metropolis,NY,10001,555-1234,healthcareplus@example.com,ABC123,2010-01-01,2025-01-01,Active,2023-01-01
+2,MedCare,Hospital,456 Oak St,Gotham,CA,90001,555-5678,medcare@example.com,DEF456,2012-02-15,2026-02-15,Active,2023-02-01
+3,City Clinic,Clinic,789 Pine St,Star City,TX,75001,555-9876,cityclinic@example.com,GHI789,2015-03-01,2024-03-01,Active,2023-03-01
+4,Healthy Life,Pharmacy,101 Maple Ave,Central City,FL,33101,555-2468,healthylife@example.com,JKL012,2017-05-10,2023-05-10,Inactive,2023-04-01
+5,Total Health,Hospital,202 Birch Rd,Smallville,IL,62701,555-8642,totalhealth@example.com,MNO345,2018-06-01,2025-06-01,Active,2023-05-01
+6,LifeCare,Pharmacy,303 Cedar Ln,Springfield,MA,01101,555-1357,carelife@example.com,PQR678,2020-07-15,2025-07-15,Active,2023-06-01
+7,Wellness Center,Clinic,404 Oak Blvd,Coast City,OR,97001,555-4321,wellnesscenter@example.com,STU901,2016-08-20,2024-08-20,Active,2023-07-01
+8,Sunrise Health,Hospital,505 Elm St,Brighton,CO,80601,555-2584,sunrisehealth@example.com,VWX234,2014-09-05,2025-09-05,Active,2023-08-01
+9,Optima Care,Clinic,606 Walnut Ave,Riverdale,GA,30078,555-3698,optima@example.com,YZA567,2013-10-25,2024-10-25,Active,2023-09-01
+10,Family Health,Hospital,707 Chestnut St,Twin Peaks,WA,98290,555-7412,familyhealth@example.com,BCD890,2019-11-30,2026-11-30,Active,2023-10-01
+11,Medix,Pharmacy,808 Maple Rd,Haven,VT,05401,555-1597,medix@example.com,EFG012,2021-12-10,2025-12-10,Active,2023-11-01
+12,CarePoint,Clinic,909 Oak Dr,Eden,WI,53032,555-7530,carepoint@example.com,HJK345,2022-01-01,2027-01-01,Active,2023-12-01
+13,Quick Health,Hospital,1010 Birch St,Greendale,AZ,85004,555-8640,quickhealth@example.com,LMN678,2020-03-15,2025-03-15,Active,2024-01-01
+14,Global Med,Hospital,1111 Pine Ln,Meadowbrook,NV,89005,555-9753,globalmed@example.com,OPQ012,2021-07-20,2026-07-20,Active,2024-02-01
+15,HealthFirst,Pharmacy,1212 Cedar Blvd,Oakwood,OK,73010,555-2460,healthfirst@example.com,XYZ345,2020-06-25,2025-06-25,Active,2024-03-01
+16,Health,City Clinic
