@@ -1,0 +1,16 @@
+beneficiary_id,policy_holder_id,policy_id,first_name,last_name,dob,relationship,phone,email,address,city,state,zip,created_at,updated_at
+1,1,101,John,Doe,1980-05-15,Self,1234567890,john.doe@example.com,123 Elm St,Metropolis,NY,10001,2023-01-01,2023-02-01
+2,2,102,Jane,Smith,1975-10-22,Self,9876543210,jane.smith@example.com,456 Oak St,Gotham,CA,90001,2023-03-01,2023-04-01
+3,3,103,Linda,Taylor,2008-09-10,Spouse,4561237891,linda.taylor@example.com,790 Pine St,Star City,TX,75002,2023-05-15,2023-06-15
+4,4,104,James,Brown,1990-01-20,Brother,3216549871,james.brown@example.com,102 Maple Ave,Central City,FL,33102,2023-07-01,2023-08-01
+5,5,105,Sarah,Wilson,1985-12-01,Sister,7418529631,sarah.wilson@example.com,203 Birch Rd,Smallville,IL,62705,2023-02-10,2023-03-10
+6,6,106,Emily,Clark,1995-10-05,Spouse,9638527411,emily.clark@example.com,304 Spruce Ln,Springfield,MA,01110,2023-06-20,2023-07-20
+7,7,107,Liam,Martinez,1987-08-15,Son,8529637411,liam.martinez@example.com,405 Ash St,Coast City,OR,97036,2023-08-01,2023-09-01
+8,8,108,Olivia,Garcia,1993-04-12,Daughter,1239874561,olivia.garcia@example.com,506 Cedar Ct,Brighton,CO,80602,2023-03-15,2023-04-15
+9,9,109,Ethan,Anderson,1991-02-22,Spouse,6543217891,ethan.anderson@example.com,607 Chestnut Blvd,Riverdale,GA,30079,2023-09-01,2023-10-01
+10,10,110,Isabella,Hernandez,1988-09-25,Spouse,7890123457,isabella.hernandez@example.com,708 Redwood Way,Twin Peaks,WA,98291,2023-10-01,2023-11-01
+11,11,111,James,Lopez,1994-05-10,Brother,3219876544,james.lopez@example.com,809 Walnut Dr,Haven,VT,05402,2023-11-01,2023-12-01
+12,12,112,Sophia,Walker,1996-03-18,Daughter,9873216549,sophia.walker@example.com,910 Mahogany St,Eden,WI,53033,2023-12-01,2024-01-01
+13,13,113,Benjamin,Young,1983-06-30,Father,1472583691,benjamin.young@example.com,112 Hickory Ln,Greendale,AZ,85005,2023-04-01,2023-05-01
+14,14,114,Ava,Allen,1979-11-15,Mother,9631472581,ava.allen@example.com,213 Sycamore Rd,Meadowbrook,NV,89006,2023-07-15,2023-08-15
+15,15,115,Lucas,King,1986-01-25,Spouse,7419638521,lucas.king@example.com,314 Fir Pl,Oakwood,OK,73009,2023-05-01,2023-06-01

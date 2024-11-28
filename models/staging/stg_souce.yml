@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: Insurance
+    database: ANALYTICS
+    schema: dbt_mmethuku
+    tables:
+      - name: raw_policyholders
+      - name: raw_policyclaims
+      - name: raw_providers
+      - name : raw_insurance_policies
+      - name : raw_premium_payments
+      - name : raw_beneficiaries
