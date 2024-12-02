@@ -2,8 +2,8 @@
     materialized='table'
 ) }}
 
-WITH joined_data AS (
     SELECT
+        ROW_NUMBER() OVER (ORDER BY bh.beneficiary_id, ph.policy_id) AS surrogate_key,
         bh.beneficiary_id, 
         bh.policy_holder_id, 
         bh.policy_id,
@@ -22,10 +22,3 @@ WITH joined_data AS (
     FROM {{ ref('stg_Beneficiaries') }} bh
     JOIN {{ ref('stg_policyholders') }} ph
         ON bh.policy_id = ph.policy_id
-        AND bh.policy_holder_id = ph.policy_holder_id
-)
-
-SELECT 
-    ROW_NUMBER() OVER (ORDER BY beneficiary_id, policy_id) AS surrogate_key, 
-    * 
-FROM joined_data

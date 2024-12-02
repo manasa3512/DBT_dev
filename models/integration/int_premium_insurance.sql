@@ -11,10 +11,10 @@ SELECT
     ip.coverage_amount,
     ip.premium_amount,
     pp.amount_paid,
-    pp.transaction_id,
-    pp.receipt_number,
     pp.late_fee,
     pp.total_amount,
+    pp.transaction_id,
+    pp.receipt_number,
     ip.provider_name,
     ip.provider_contact,
     ip.beneficiary_type

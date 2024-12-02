@@ -13,5 +13,5 @@ provider_id,provider_name,provider_type,address,city,state,zip,phone,email,licen
 12,CarePoint,Clinic,909 Oak Dr,Eden,WI,53032,555-7530,carepoint@example.com,HJK345,2022-01-01,2027-01-01,Active,2023-12-01
 13,Quick Health,Hospital,1010 Birch St,Greendale,AZ,85004,555-8640,quickhealth@example.com,LMN678,2020-03-15,2025-03-15,Active,2024-01-01
 14,Global Med,Hospital,1111 Pine Ln,Meadowbrook,NV,89005,555-9753,globalmed@example.com,OPQ012,2021-07-20,2026-07-20,Active,2024-02-01
-15,HealthFirst,Pharmacy,1212 Cedar Blvd,Oakwood,OK,73010,555-2460,healthfirst@example.com,XYZ345,2020-06-25,2025-06-25,Active,2024-03-01
+15,HealthFirst,Hospital,1212 Cedar Blvd,Oakwood,OK,73010,555-2460,healthfirst@example.com,XYZ345,2020-06-25,2025-06-25,Active,2024-03-01
 16,Health,City Clinic
