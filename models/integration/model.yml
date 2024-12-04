@@ -15,6 +15,10 @@ models:
           - relationships:
               to: ref('stg_policyholders')
               field: policy_id
+      - name: Policyholder_phone
+        tests:
+          - validate_phone_length:
+              column_name: Policyholder_phone
   - name: int_Policyclaims_providers
     columns:
       - name: surrogate_key
@@ -24,7 +28,6 @@ models:
       - name: claim_id
         tests:
           - not_null
-
   - name: int_premium_insurance
     columns:
       - name: payment_id

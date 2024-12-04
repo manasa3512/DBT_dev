@@ -1,5 +1,5 @@
 claim_id,policy_holder_id,policy_id,provider_id,date_of_service,claim_amount,approved_amount,status,submitted_date,processed_date,denial_reason,notes,created_at,updated_at,payment_date
-1,1,101,1,2023-01-01,1500.00,1500.00,Approved,2023-01-02,2023-01-10,,Claim approved for treatment,2023-01-01,2023-01-15,2023-01-20
+1,1,101,1,2023-01-01,1500.00,1500.00,Approved,2023-01-02,2023-01-10,,Claim approved for surgery,2023-01-01,2023-01-15,2023-01-20
 2,2,102,2,2023-02-10,1200.00,1200.00,Approved,2023-02-12,2023-02-20,,Claim approved for surgery,2023-02-01,2023-02-15,2023-02-18
 3,3,103,3,2023-03-15,800.00,800.00,Approved,2023-03-16,2023-03-22,,Claim approved for consultation,2023-03-01,2023-03-18,2023-03-25
 4,4,104,4,2023-04-20,1000.00,950.00,Approved,2023-04-21,2023-04-30,,Claim approved with a partial payment,2023-04-01,2023-04-25,2023-04-30

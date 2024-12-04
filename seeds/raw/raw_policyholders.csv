@@ -13,4 +13,4 @@ policy_holder_id,first_name,last_name,dob,gender,phone,email,address,city,state,
 12,Sophia,Walker,1996-03-18,Female,9873216548,sophia.walker@example.com,909 Mahogany St,Eden,WI,53032,112,2023-12-01,2024-12-01,Active
 13,Benjamin,Young,1983-06-30,Male,1472583690,benjamin.young@example.com,111 Hickory Ln,Greendale,AZ,85004,113,2023-04-01,2024-04-01,Active
 14,Ava,Allen,1979-11-15,Female,9631472580,ava.allen@example.com,212 Sycamore Rd,Meadowbrook,NV,89005,114,2023-07-15,2024-07-15,Active
-15,Lucas,King,1986-01-25,Male,7419638520,lucas.king@example.com,313 Fir Pl,Oakwood,OK,73008,115,2023-05-01,2024-05-01,Inactive
+15,Lucas,King,1986-01-25,Male,7419638520,lucas.king@example.com,313 brk Pl,Oakwood,OK,73008,115,2023-05-01,2024-05-01,Inactive
