@@ -1,0 +1,42 @@
+version: 2
+
+models:
+  - name: int_policyholder_beneficiary
+    columns:
+      - name: surrogate_key
+        tests:
+          - unique
+          - not_null
+      - name: beneficiary_id
+        tests:
+          - not_null
+      - name: policy_id
+        tests:
+          - relationships:
+              to: ref('stg_policyholders')
+              field: policy_id
+      - name: Policyholder_phone
+        tests:
+          - validate_phone_length:
+              column_name: Policyholder_phone
+  - name: int_Policyclaims_providers
+    columns:
+      - name: surrogate_key
+        tests:
+          - unique
+          - not_null
+      - name: claim_id
+        tests:
+          - not_null
+  - name: int_premium_insurance
+    columns:
+      - name: payment_id
+        tests:
+          - unique
+          - not_null
+      - name: policy_id
+        tests:
+          - not_null
+      - name: provider_name
+        tests:
+          - not_null
