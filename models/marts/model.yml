@@ -1,0 +1,31 @@
+version: 2
+
+models:
+  - name: rp_Policyholder_beneficiary
+    columns:
+      - name: surrogate_key
+        tests:
+          - unique
+          - not_null
+      - name: policy_id
+        tests:
+          - not_null
+
+  - name: rp_policyclaims_Providers
+    columns:
+      - name: surrogate_key
+        tests:
+          - unique
+          - not_null
+      - name: claim_id
+        tests:
+          - not_null
+
+  - name: rp_payments
+    columns:
+      - name: provider_name
+        tests:
+          - not_null
+      - name: total_premium_amount
+        tests:
+          - not_null
